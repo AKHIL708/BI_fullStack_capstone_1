@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(29, 161 ,242);
+}
+.sectionHandler{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 55px;
+}
+.dateShowCase{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.mainSection{
+    /* border: 1px solid; */
+    margin-top: 10px;
+    width: fit-content;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 25px 25px;
+    box-shadow: 5px 8px 12px white;
+    border-radius: 12px;
+}
+
+.FormEle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 5px;
+}
+.submit{
+    background-color: green;
+    color: white;
+    cursor:pointer;
+    padding: 3px 5px;
+    border: none;
+}
+.submit:hover{
+    box-shadow: 2px 2px 5px white;
+    border-radius: 5px ;
+    transition-duration: 0.2s;
+}
+.span{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.Btn{
+ display: flex;
+ width: fit-content;
+ margin-left: auto;
+ margin-right: auto;
+ background-color: red;
+ color: white;
+ border: none;
+ padding: 2px 4px;
+ cursor: pointer;
+}
+
+

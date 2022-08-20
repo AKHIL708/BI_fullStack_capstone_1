@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+<body>
+   <div class="navbar">
+    <h1>Monthly Grocery Planning</h1>
+   </div>
+    <div class="dateShowCase">
+      <span><h1>Plan For - </h1></span>  <h1 id="Date"> </h1>
+    </div>
+    <div class="sectionHandler">
+   <div class="mainSection">
+
+    <form action="/" method="POST"  class="FormEle">
+        <input type="text"
+        placeholder="Add Shopping items"
+        name="groceryItem"
+        class="item"
+        id="item"
+        autocomplete="off"
+        >
+        <input type="submit" value="Add List"  class="submit" onclick="Submit()">
+    </form>
+   </div>
+   <div class="mainSection">
+
+    <form action="/Delete" method="POST"  class="FormEle">
+        <input type="text"
+        placeholder="Enter Delete List Item"
+        name="DeletegroceryItem"
+        class="item"
+        id="item"
+        autocomplete="off"
+        >
+     <input type="submit" style="color: white;background-color: red; border: none;" value="DeleteList" onclick="DeleteList()">
+    </form>
+   </div>
+  </div>
+    
+</body>
+<script src="./logicJS/index.js"></script>
+</html>
